@@ -64,9 +64,9 @@
   O yüzden CONFIG'den doldurulamıyor — template'in TEK elle alanı.
   og:image TAM adres ister: https://yusuf313686.github.io/REPO-ADI/logo.jpg
   Doğru doldurulunca DM'de link = logo + isim + slogan kartı olarak açılır. -->
-<meta property="og:title" content="Gelibolu Butik Pasta">
-<meta property="og:description" content="Kişiye Özel Butik Pastalar - Gelibolu">
-<meta property="og:image" content="https://yusuf313686.github.io/REPO-ADI/logo.jpg"> <!-- DEPLOY SONRASI: REPO-ADI kısmını gerçek repo adıyla değiştir! -->
+<meta property="og:title" content="Dünya butik pasta">
+<meta property="og:description" content="Kişiye Özel Butik Pastalar - Dünya pasta">
+<meta property="og:image" content="https://yusuf313686.github.io/dunya.butikpasta/logo.jpg"> <!-- DEPLOY SONRASI: REPO-ADI kısmını gerçek repo adıyla değiştir! -->
 <meta property="og:type" content="website">
 <!-- ═══ FONT — LOGONUN TARZINA GÖRE SEÇ ═══
   Logo el yazısı/zarif ise  → Playfair Display (mevcut) veya Cormorant Garamond
@@ -83,14 +83,14 @@
    Her satırın yanında ne yazacağın açıklanıyor.
    Sadece tırnak içlerini değiştir, yapıyı bozma.   */
 const CONFIG = {
-  logo: "logo.jpg",
+  logo: "logo1.jpg",
   name: "Gelibolu Butik Pasta",
   tagline: "Kişiye Özel Butik Pastalar",
-  about: "Gelibolu'da kişiye özel butik pastalar hazırlıyorum. Doğum günü, nişan, söz, baby shower ve tüm özel günleriniz için hayalinizdeki tasarımı pastaya dönüştürüyorum. Her pasta taze ve birinci sınıf malzemelerle, tamamen size özel olarak özenle hazırlanmaktadır.",
+  about: "istanbul'da kişiye özel butik pastalar hazırlıyorum. Doğum günü, nişan, söz, baby shower ve tüm özel günleriniz için hayalinizdeki tasarımı pastaya dönüştürüyorum. Her pasta taze ve birinci sınıf malzemelerle, tamamen size özel olarak özenle hazırlanmaktadır.",
 
   phone: "+905309098986",
   whatsapp: "905309098986",   // DEMO BUILD: işletmenin numarası. CANLI PİTCH TESTİ ÖNCESİ kendi numaranla değiştir!
-  instagram: "gelibolu.butikpasta",
+  instagram: "dunya.butikpasta",
 
   colors: {
     primary:  "#B8963E",
@@ -120,11 +120,11 @@ const CONFIG = {
   faq: [],
 
   products: [
-    { name: "Yıldönümü Pastası", desc: "Evlilik yıldönümü ve özel anlarınız için", img: "pasta_1.jpg" },
-    { name: "Çiçekli Tasarım Pasta", desc: "Zarif çiçek detaylı, nişan ve düğün temalı", img: "pasta_2.jpg" },
-    { name: "Yetişkin Doğum Günü", desc: "Kişiye özel konsept ve tasarım", img: "pasta_3.jpg" },
-    { name: "Çocuk Doğum Günü", desc: "Temalı figürlü özel tasarım", img: "pasta_4.jpg" },
-    { name: "Birthday Queen Pasta", desc: "Şık ve zarif doğum günü pastaları", img: "pasta_5.jpg" }
+    { name: "", desc: "", img: "foto1.png" },
+    { name: "", desc: "", img: "foto2.png" },
+    { name: "", desc: "", img: "foto3.png" },
+    { name: "", desc: "", img: "foto4.png" },
+    { name: "", desc: "", img: "foto5.png" }
   ],
 
   menuNote: "",
@@ -132,9 +132,9 @@ const CONFIG = {
 
   branches: [
     {
-      name: "Gelibolu Butik Pasta",
-      address: "Gelibolu, Çanakkale",
-      mapsUrl: "https://www.google.com/maps/search/?api=1&query=Gelibolu+%C3%87anakkale",
+      name: "Dünya Butik Pasta",
+      address: "",
+      mapsUrl: "",
       phone: "+905309098986",
       hours: "Sipariş Üzerine Hazırlanır"
     }
@@ -144,9 +144,9 @@ const CONFIG = {
     portions: ["4", "6", "8", "10", "12", "15", "20"],
     weddingPortions: [],
 
-    portionPrices: {},
+    portionPrices: { "4": 500, "6": 700, "8": 900, "10": 1100 },
     flavorExtras: {},
-    priceNote: "",
+    priceNote: "Son fiyata şef karar verir",
     photoNote: "Aklınızdaki pastanın fotoğrafını sipariş sonrası WhatsApp üzerinden göndermeyi unutmayın!",
     rules: [],
     minDaysAhead: 3,
